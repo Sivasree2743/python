@@ -1,0 +1,6 @@
+n1=int(input("enter n1 value:"))
+n2=int(input("enter n1 value:"))
+n3=int(input("enter n1 value:"))
+n=max(n1,n2,n3)
+print(n, “is greater")
+
