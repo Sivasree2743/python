@@ -1,0 +1,5 @@
+li=[15,2,7,25,10]
+li.sort()
+print(li)
+print("maximum:",li[-1])
+print("minimum:",li[0])
