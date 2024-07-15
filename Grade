@@ -1,0 +1,9 @@
+p=int(input("enter the percentage:"))
+if p>90:
+    print("Grade A")
+elif p>80 and p<=90:
+    print("Grade B")
+elif p>=60 and p<=80:
+    print("grade C")
+else:
+    print("Grade D")
