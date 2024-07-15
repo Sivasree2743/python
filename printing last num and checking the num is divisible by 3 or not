@@ -1,0 +1,8 @@
+num=int(input())
+num1=0
+if num>0:
+    num1=num%10
+    if num1%3==0:
+        print("last digit is div by 3")
+    else:
+        print("not divisible")
