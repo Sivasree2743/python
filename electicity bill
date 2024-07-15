@@ -1,0 +1,10 @@
+units=int(input("enter the units:"))
+bill=0
+if units<=100:
+    print("no charge")
+elif (units>100) and (units<=200):
+    bill=units*5
+elif units>200:
+    bill=units*10
+print("Rs",bill ,sep="")
+    
