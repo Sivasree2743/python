@@ -1,0 +1,5 @@
+num=int(input())
+num1=0
+if num>0:
+    num1=num%10
+print(num1)
