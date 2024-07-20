@@ -1,0 +1,11 @@
+list=["apple","ball","cat","dog","fish"]
+string=input()
+for i in range(0,len(list)):
+    if string in list:
+        print(string,"ly", sep="")
+        break
+    elif len(string)>3:
+        print(string,"ing" ,sep="")
+        break
+    else:
+        print("the given string length is less than 3")
