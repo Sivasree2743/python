@@ -1,0 +1,6 @@
+a=" i am a developer"
+sub="developer"
+if sub in a:
+    print("yes")
+else:
+    print("no")
