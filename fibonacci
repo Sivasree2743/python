@@ -1,0 +1,7 @@
+fib=[0,1]
+n=int(input("enter the num:"))
+i=2
+while i<n:
+	  fib.append(fib[i-1]+fib[i-2])
+	  i=i+1
+print(fib)
