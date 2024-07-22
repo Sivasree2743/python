@@ -9,3 +9,4 @@ for i in range(0,len(list)):
         break
     else:
         print("the given string length is less than 3")
+        break
