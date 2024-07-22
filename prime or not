@@ -1,0 +1,12 @@
+n=int(input("enter the number:"))
+i=1
+list=[]
+while i<=n:
+    if n%i==0:
+        list.append(i)
+    i=i+1
+print(list)
+if len(list)==2:
+    print(n," is prime")
+else:
+    print(n,"is not prime")
