@@ -1,1 +1,2 @@
-print(bin(7)[2:])
+num=int(input("enter the input number:"))
+print(bin(num)[2:])
