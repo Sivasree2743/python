@@ -1,0 +1,3 @@
+x,y,z=56,90,23
+maximum=max(x,y,z)
+print(maximum)
