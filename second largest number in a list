@@ -1,0 +1,5 @@
+list=[1,2,8,56,87,23,65,78,90]
+list.sort()
+print(list)
+print("the second largest number is:",list[-2])
+ 
