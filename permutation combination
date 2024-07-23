@@ -1,0 +1,11 @@
+import math
+def permutation(n,r):
+    if n>r:
+        return math.factorial(n)//math.factorial(n-r)
+    print("r needs to be smaller than n")
+def combination(n,r):
+    if n>r:
+        return math.factorial(n)//math.factorial(r)*math.factorial(n-r)
+a=permutation(5,7)
+b=combination(10,9)
+print(f"permutation is:{a} combination is:{b}")
