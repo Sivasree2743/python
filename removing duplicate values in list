@@ -1,0 +1,8 @@
+li=[1,4,9,23,1,1,2,7,9,7]
+len_of_list=len(li)
+s=set(li)
+len_of_set=len(s)
+duplicate_val=len_of_list-len_of_set
+print(s)
+print("no of duplicate values are:",duplicate_val)
+ 
