@@ -1,0 +1,13 @@
+def lst():
+    mul=1
+    lst1=[]
+    for i in range(0,n):
+        ele=int(input())
+        lst1.append(ele)
+    i=i+1
+    for i in range(0,len(lst1)):
+        mul=mul*lst1[i]
+    i=i+1
+    return mul
+n=int(input())    
+print("the product is:",lst())
