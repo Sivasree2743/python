@@ -1,0 +1,5 @@
+def string():
+    rev=word[::-1]
+    return rev    
+word=input()   
+print(string())
