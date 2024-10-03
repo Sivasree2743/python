@@ -1,0 +1,6 @@
+def rang(n):
+    if n in range(1,50):
+        return "n in given range"
+    else:
+        return "not in range"
+print(rang(50))
