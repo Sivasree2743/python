@@ -1,0 +1,19 @@
+n=int(input())
+l1=[]
+l2=[]
+for i in range(0,n):
+    ele=int(input())
+    l1.append(ele)
+i=i+1
+for i in range(0,n):
+    ele1=int(input())
+    l2.append(ele1)
+i=i+1
+print(l1)
+print(l2)
+s1=sorted(l1)
+s2=sorted(l2)
+if s1==s2:
+    print("YES 2")
+else:
+    print("NO 0")
